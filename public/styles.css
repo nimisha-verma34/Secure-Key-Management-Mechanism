@@ -1,0 +1,123 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #0b8797;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  width: 45%;
+}
+
+.form-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="date"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #f44336;
+} */
+
+/*code 2*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://cddo.blog.gov.uk/wp-content/uploads/sites/251/2023/08/CDDO-Blog-Featured-Image-template-2.jpg'); /* Use relative path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure full viewport height coverage */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for form */
+  width: 45%;
+}
+
+form {
+  width: 100%;
+  padding: 10px;
+}
+
+form label,
+form input,
+form button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form button {
+  width: calc(100% - 20px); /* Adjust width to fit within form */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3; /* Button hover background color */
+}
